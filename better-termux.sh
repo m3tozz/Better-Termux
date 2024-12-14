@@ -50,9 +50,9 @@ sleep 3
 clear
 echo -e "\033[1;31m Updating PKG Repo\033[01;32m"
 mv zshrc .zshrc
-pkg update
+pkg update -y
 echo -e "\033[1;31m Installıng Zsh\033[01;32m"
-pkg install zsh
+pkg install zsh -y
 chsh -s zsh 
 mkdir -p /data/data/com.termux/files/home/.zsh/plugins
 mkdir -p /data/data/com.termux/files/home/.zsh/themes
@@ -64,7 +64,7 @@ git clone https://github.com/zsh-users/zsh-completions.git
 cp -r  /zsh-completions /data/data/com.termux/files/home/.zsh/plugins
 cp -r .zshrc /data/data/com.termux/files/home/
 echo -e "\033[1;31m Installıng NeoCat-Termux\033[01;32m"
-pkg install neofetch
+pkg install neofetch -y
 git clone https://github.com/m3tozz/NeoCat-Termux.git
 rm -r /data/data/com.termux/files/home/.config/neofetch/config.conf
 cd NeoCat-Termux/Themes/Palm/neofetch && cp -r config.conf /data/data/com.termux/files/home/.config/neofetch && cp -r ascii.txt /data/data/com.termux/files/home/.config/neofetch
