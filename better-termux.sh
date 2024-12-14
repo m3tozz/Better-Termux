@@ -94,7 +94,6 @@ rm -r /data/data/com.termux/files/home/NeoCat-Termux
 rm -r /data/data/com.termux/files/home/.config/neofetch
 echo -e "\033[1;31m Uninstallıng Zsh\033[01;32m"
 chsh -s bash 
-bash
 pkg remove zsh -y
 clear
 echo -e "\033[1;31m Better-Termux has been removed your shell\033[0m"
