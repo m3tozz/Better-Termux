@@ -66,7 +66,7 @@ cp -r .zshrc /data/data/com.termux/files/home/
 echo -e "\033[1;31m Installıng NeoCat-Termux\033[01;32m"
 pkg install neofetch
 git clone https://github.com/m3tozz/NeoCat-Termux.git
-rm -r /data/data/com.termux/files/home/.config/neofetch
+rm -r /data/data/com.termux/files/home/.config/neofetch/config.conf
 cd NeoCat-Termux/Themes/Palm/ && cp -r config.conf /data/data/com.termux/files/home/.config/neofetch && cp -r ascii.txt /data/data/com.termux/files/home/.config/neofetch
 cd
 clear
