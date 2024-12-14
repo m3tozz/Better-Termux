@@ -5,11 +5,11 @@ Makes your Termux shell better 🚀
 
 --------------------------------------------------------------------------
 
-Install (Automatic)
+<a href="https://discord.gg/sQwYCZer95"><img src="https://img.shields.io/badge/Join The NeoCat's Community Discord Server-grey?&logo=discord" alt="r10" hspace="10"  align="right" /></a>Install (Automatic)
 ```bash
 git clone https://github.com/m3tozz/Better-Termux && cd Better-Termux && bash ./better-termux.sh --install
 ```
-<a href="https://discord.gg/sQwYCZer95"><img src="https://img.shields.io/badge/Join The NeoCat's Community Discord Server-grey?&logo=discord" alt="r10" hspace="10"  align="right" /></a>Install (Manual)
+</a>Install (Manual)
 ```bash
 git clone https://github.com/m3tozz/Better-Termux
 ```
