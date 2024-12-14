@@ -93,12 +93,11 @@ echo -e "\033[1;31m Unnstallıng NeoCat-Termux\033[01;32m"
 rm -r /data/data/com.termux/files/home/NeoCat-Termux
 rm -r /data/data/com.termux/files/home/.config/neofetch
 echo -e "\033[1;31m Uninstallıng Zsh\033[01;32m"
-rm -r /data/data/com.termux/files/home/.zsh/plugins/fast-syntax-highlighting/
-rm -r /data/data/com.termux/files/home/.zsh/plugins/zsh-autosuggestions/
 chsh -s bash 
 bash
 pkg remove zsh
 clear
+echo -e "\033[1;31m Better-Termux has been removed your shell\033[0m"
 bash
 }
 
