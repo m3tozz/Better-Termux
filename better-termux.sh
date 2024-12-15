@@ -72,6 +72,7 @@ cd NeoCat-Termux/Themes/Palm/neofetch
 cp -r config.conf /data/data/com.termux/files/home/.config/neofetch/
 cp -r ascii.txt /data/data/com.termux/files/home/.config/neofetch/
 cd
+rm /data/data/com.termux/files/usr/etc/motd
 clear
 zsh
 }
