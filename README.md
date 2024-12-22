@@ -1,5 +1,5 @@
 # Better-Termux
-Makes your Termux shell better 🚀          <p align="right"> ![GitHub Repo stars](https://img.shields.io/github/stars/m3tozz/Better-Termux) ![Version](https://img.shields.io/badge/Version-1.0-black.svg?) ![Views](https://hits.sh/github.com/m3tozz/Better-Termux.svg?label=Views&color=F10000) ![Android](https://img.shields.io/badge/android-gray?&logo=android) </p><br>
+<p align="left">Makes your Termux shell better 🚀</p><p align="right"> ![GitHub Repo stars](https://img.shields.io/github/stars/m3tozz/Better-Termux) ![Version](https://img.shields.io/badge/Version-1.0-black.svg?) ![Views](https://hits.sh/github.com/m3tozz/Better-Termux.svg?label=Views&color=F10000) ![Android](https://img.shields.io/badge/android-gray?&logo=android) </p><br>
 ![better](https://github.com/user-attachments/assets/f4580db3-8fbb-44a7-855c-170619c46307)
 
 --------------------------------------------------------------------------
