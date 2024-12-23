@@ -63,12 +63,12 @@ cp -r  zsh-autosuggestions /data/data/com.termux/files/home/.zsh/plugins
 git clone https://github.com/zsh-users/zsh-completions.git
 cp -r  /zsh-completions /data/data/com.termux/files/home/.zsh/plugins
 cp -r .zshrc /data/data/com.termux/files/home/
-echo -e "\033[1;31m Installıng NeoCat-Termux\033[01;32m"
+echo -e "\033[1;31m Installıng NeoCat\033[01;32m"
 pkg install neofetch -y
 neofetch
 git clone https://github.com/m3tozz/NeoCat-Termux.git
 rm -r /data/data/com.termux/files/home/.config/neofetch/config.conf
-cd NeoCat-Termux/Themes/Palm/neofetch
+cd NeoCat/Termux-Themes/Palm/neofetch
 cp -r config.conf /data/data/com.termux/files/home/.config/neofetch/
 cp -r ascii.txt /data/data/com.termux/files/home/.config/neofetch/
 cd
