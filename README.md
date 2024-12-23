@@ -23,7 +23,7 @@ bash ./better-termux.sh --help
 <summary>Packages</summary>
 <a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a></p>
 <a href="https://github.com/zdharma-zmirror/fast-syntax-highlighting">fast-syntax-highlighting</a></p>
-<a href="https://github.com/m3tozz/NeoCat-Termux">NeoCat-Termux</a></p>
+<a href="https://github.com/m3tozz/NeoCat">NeoCat</a></p>
 <a href="https://github.com/dylanaraps/neofetch">neofetch</a></p>
 <a href="https://github.com/zsh-users/zsh">zsh</a></p>
 </details>
