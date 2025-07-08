@@ -1,6 +1,7 @@
 # Better-Termux
 Makes your Termux shell better 🚀 ![GitHub Repo stars](https://img.shields.io/github/stars/m3tozz/Better-Termux) ![Version](https://img.shields.io/badge/Version-1.0-black.svg?) ![Android](https://img.shields.io/badge/android-gray?&logo=android)<br>
-![better](https://github.com/user-attachments/assets/f4580db3-8fbb-44a7-855c-170619c46307)
+![bt](https://github.com/user-attachments/assets/e3ab6d6d-495e-4a1b-bad8-f20ba2529b3f)
+
 
 --------------------------------------------------------------------------
 
