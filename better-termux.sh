@@ -47,6 +47,11 @@ Installing...
 \033[0m"
 sleep 3
 clear
+echo -e "\033[1;31m Checking Better-Termux directory...\033[0m"
+if [ -d "$HOME/.bettertermux/Better-Termux" ]; then
+    echo -e "\033[1;33m Directory ~/.bettertermux/Better-Termux exists. Removing it...\033[0m"
+    rm -rf "$HOME/.bettertermux/Better-Termux"
+fi
 echo -e "\033[1;31m Cloning Better-Termux to ~/.bettertermux\033[01;32m"
 git clone https://github.com/m3tozz/Better-Termux ~/.bettertermux/Better-Termux
 echo -e "\033[1;31m Updating PKG Repo\033[01;32m"
