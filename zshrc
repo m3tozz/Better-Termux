@@ -51,7 +51,7 @@ cd() {
 
 # BetterTermux Updater
 bettertermux_updater() {
-  bettertermux_path="$HOME/.bettertermux/BetterTermux/better-termux.sh"
+  bettertermux_path="$HOME/.bettertermux/Better-Termux/better-termux.sh"
 
   if [ -f "$bettertermux_path" ]; then
     remote_ver=$(curl -s https://raw.githubusercontent.com/m3tozz/BetterTermux/main/better-termux.sh | grep -E "^ *version=" | cut -d"'" -f2)
