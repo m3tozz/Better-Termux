@@ -54,7 +54,7 @@ bettertermux_updater() {
   bettertermux_path="$HOME/.bettertermux/Better-Termux/better-termux.sh"
 
   if [ -f "$bettertermux_path" ]; then
-    remote_ver=$(curl -s https://raw.githubusercontent.com/m3tozz/BetterTermux/main/better-termux.sh | grep -E "^ *version=" | cut -d"'" -f2)
+    remote_ver=$(curl -s https://raw.githubusercontent.com/m3tozz/Better-Termux/main/better-termux.sh | grep -E "^ *version=" | cut -d"'" -f2)
     local_ver=$(grep -E "^ *version=" "$bettertermux_path" | cut -d"'" -f2)
 
     if [ "$remote_ver" != "$local_ver" ]; then
