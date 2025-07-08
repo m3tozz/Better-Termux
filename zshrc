@@ -69,9 +69,5 @@ bettertermux_updater() {
   return 1
 }
 
-if [ -z "$BETTERTERMUX_UPDATED" ]; then
-  bettertermux_updater
-fi
-
 bettertermux_updater
 neofetch
