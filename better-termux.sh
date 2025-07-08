@@ -6,7 +6,7 @@
 # BetterTermux Version
     version='BetterTermux-1.0'
 
-#Colors
+# Colors
     red='\e[1;31m'
     yellow='\e[1;33m'
     blue='\e[1;34m'
@@ -14,7 +14,6 @@
     green='\e[0;32m'
     bgreen='\033[1;32m'
 
-# Define Constants.
 # Define Constants.
 export APP="BetterTermux" 		# Project Name
 export CWD="${PWD}"			# Current Work Directory
@@ -48,6 +47,8 @@ Installing...
 \033[0m"
 sleep 3
 clear
+echo -e "\033[1;31m Cloning Better-Termux to ~/.bettertermux\033[01;32m"
+git clone https://github.com/m3tozz/Better-Termux ~/.bettertermux/Better-Termux
 echo -e "\033[1;31m Updating PKG Repo\033[01;32m"
 mv zshrc .zshrc
 pkg update -y
